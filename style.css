@@ -87,3 +87,43 @@ ul{
 .hover-link:hover{
     color: var(--accent-color-dark);
 }
+.primary-btn{
+    background-color: var(--accent-color-dark);
+    border:6px;
+    font-weight: 700;
+    color: white !important;
+    padding:12px 24px;
+    box-shadow:8 8 2px var(--secondary-text-color);
+    transition: 0.2s;
+
+}
+.primary-btn:hover{
+    background-color: var(--secondary-text-color);
+
+}
+
+.secondary-btn{
+    border: 8.5px solid var(--secondary-text-color);
+    border-radius:6px;
+    padding: 12px 24px;
+    font-weight: 700;
+    color: var(--primary-text-color) !important;
+    transition: 0.2 ease-out;
+}
+.secondary-btn:hover{
+    border-color: var(--accent-color-dark);
+
+}
+.section-gap{
+    padding: 50px var(--padding-inline-section) 0;
+}
+.header-left{
+    width:40vw;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+
+}
+.header-right img{
+    width: 100%;
+}
