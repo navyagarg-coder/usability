@@ -127,3 +127,16 @@ ul{
 .header-right img{
     width: 100%;
 }
+/* company section*/
+.company-section{
+    text-align: center;
+    color: var(--accent-color-dark);
+    
+}
+.logos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logos img{
+    height: 40px;
+}
